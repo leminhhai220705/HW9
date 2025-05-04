@@ -1,0 +1,219 @@
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  min-height: 500px;
+  width: 80%;
+  margin: 15vh auto;
+  text-align: center;
+  position: relative;
+}
+
+.wrapper-2 {
+  position: absolute;
+  inset: -120px 0 0 0;
+  background-color: transparent;
+}
+
+.circle {
+  display: inline-block;
+  background-color: #000;
+  width: 25px;
+  height: 25px;
+  margin: 200px 5px;
+  border-radius: 50%;
+  animation: circle-movement linear 5s infinite;
+}
+
+.circle-reverse {
+  display: inline-block;
+  background-color: #000;
+  width: 25px;
+  height: 25px;
+  margin: 200px 5px;
+  border-radius: 50%;
+  animation: circle-movement-reverse linear 5s infinite;
+}
+
+.circle-1 {
+  animation-delay: 0s;
+}
+
+.circle-2 {
+  animation-delay: 0.4s;
+}
+
+.circle-3 {
+  animation-delay: 0.8s;
+}
+
+.circle-4 {
+  animation-delay: 1.2s;
+}
+
+.circle-5 {
+  animation-delay: 1.6s;
+}
+
+.circle-6 {
+  animation-delay: 2s;
+}
+
+.circle-7 {
+  animation-delay: 2.4s;
+}
+
+@keyframes circle-movement {
+  0% {
+    translate: 0 0;
+    scale: 1;
+  }
+  25% {
+    translate: 0 45px;
+    scale: 1.5;
+  }
+  50% {
+    translate: 0 90px;
+    scale: 1;
+  }
+
+  52% {
+    translate: 0 85px;
+    scale: 0.95;
+  }
+  58% {
+    translate: 0 79px;
+    scale: 0.9;
+  }
+  60% {
+    translate: 0 75px;
+    scale: 0.85;
+    opacity: 0.8;
+  }
+  65% {
+    translate: 0 65px;
+    scale: 0.7;
+    opacity: 0.7;
+  }
+  70% {
+    translate: 0 55px;
+    scale: 0.5;
+    opacity: 0.5;
+  }
+  75% {
+    translate: 0 45px;
+    scale: 0;
+    opacity: 0;
+  }
+  78% {
+    translate: 0 40px;
+    scale: 0.5;
+    opacity: 0.5;
+  }
+  78% {
+    translate: 0 37px;
+    scale: 0.6;
+    opacity: 0.5;
+  }
+  85% {
+    translate: 0 25px;
+    scale: 0.75;
+    opacity: 0.75;
+  }
+  90% {
+    translate: 0 15px;
+    scale: 0.8;
+    opacity: 0.8;
+  }
+  95% {
+    translate: 0 7px;
+    scale: 0.9;
+    opacity: 0.9;
+  }
+  100% {
+    translate: 0 0;
+    scale: 1;
+    opacity: 1;
+  }
+}
+
+@keyframes circle-movement-reverse {
+  /* 0% {
+    translate: 0 0;
+    scale: 1;
+  } */
+  75% {
+    translate: 0 45px;
+    scale: 1.5;
+  }
+
+  100% {
+    translate: 0 90px;
+    scale: 1;
+  }
+
+  0% {
+    translate: 0 90px;
+    scale: 1;
+  }
+
+  2% {
+    translate: 0 85px;
+    scale: 0.95;
+  }
+  8% {
+    translate: 0 79px;
+    scale: 0.9;
+  }
+  10% {
+    translate: 0 75px;
+    scale: 0.85;
+    opacity: 0.8;
+  }
+  15% {
+    translate: 0 65px;
+    scale: 0.7;
+    opacity: 0.7;
+  }
+  20% {
+    translate: 0 55px;
+    scale: 0.5;
+    opacity: 0.5;
+  }
+  25% {
+    translate: 0 45px;
+    scale: 0;
+    opacity: 0;
+  }
+  28% {
+    translate: 0 40px;
+    scale: 0.5;
+    opacity: 0.5;
+  }
+  30% {
+    translate: 0 37px;
+    scale: 0.6;
+    opacity: 0.5;
+  }
+  35% {
+    translate: 0 25px;
+    scale: 0.75;
+    opacity: 0.75;
+  }
+  40% {
+    translate: 0 15px;
+    scale: 0.8;
+    opacity: 0.8;
+  }
+  45% {
+    translate: 0 7px;
+    scale: 0.9;
+    opacity: 0.9;
+  }
+  50% {
+    translate: 0 0;
+    scale: 1;
+    opacity: 1;
+  }
+}

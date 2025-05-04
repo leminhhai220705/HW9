@@ -1,0 +1,42 @@
+/* Menu-homework-exercise */
+
+.homework-list {
+  font-size: 3.5rem;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.list-hw {
+  text-align: center;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hw-item {
+  margin-top: 10px;
+
+  background: rgba(141, 187, 123, 1);
+  display: flex;
+  align-items: center;
+  margin: 20px auto;
+  outline: none;
+  border-radius: 10px;
+  transition: transform 0.05s ease-in-out;
+}
+
+li:active {
+  transform: scale(0.95);
+}
+
+.menu-hw a {
+  display: block;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  text-decoration: none;
+  height: 50px;
+  color: var(--black-color);
+  padding: 10px;
+  min-width: 200px;
+}
